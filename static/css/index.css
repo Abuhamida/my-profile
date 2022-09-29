@@ -1,0 +1,178 @@
+.main {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.contante {
+  display: flex;
+  /* justify-content: space-between; */
+  color: black;
+}
+
+.frist {
+  padding-bottom: 60px;
+}
+
+.scound {
+  background: rgba(63, 63, 62, 0.119);
+  /* width: 100%; */
+}
+
+.img_welcom img {
+  padding-right: 100px;
+  width: 500px;
+  height: 660px;
+  object-fit: contain;
+}
+
+.img {
+  width: 50%;
+}
+
+.img img {
+  padding-left: 30px;
+  width: 490px;
+  height: 460px;
+  object-fit: cover;
+}
+
+.text_welcom h1 {
+  text-align: left;
+  line-height: 1.25em;
+  font-size: 72px;
+}
+
+.text_welcom p {
+  text-align: left;
+  line-height: 1.67em;
+  font-size: 20px;
+}
+
+.text {
+  padding: 40px;
+  padding-left: 200px;
+}
+
+.text h1 {
+  text-align: left;
+  line-height: 1.41em;
+  font-size: 22px;
+}
+
+.text p {
+  text-align: left;
+  line-height: 1.67em;
+  font-size: 20px;
+}
+
+
+
+form {
+  width: 70%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  margin-left: 50%;
+  background-color: #080808;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000b7;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.informaton {
+  width: 50%;
+  padding: 30px;
+}
+
+
+@media (max-width:950px) {
+  .contante {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .text_welcom {
+    margin: 0;
+  }
+
+  .text_welcom h1 {
+    text-align: left;
+    line-height: 1.25em;
+    font-size: 30px;
+  }
+
+  .text_welcom p {
+    text-align: left;
+    line-height: 1.67em;
+    font-size: 20px;
+  }
+
+  .text {
+    padding: 30px;
+  }
+
+  .img_welcom img {
+    padding-right: 0;
+    width: 100%;
+    height: 396px;
+    object-fit: contain;
+  }
+
+  .img img {
+    padding: 0;
+    width: 200%;
+    height: 288px;
+    object-fit: cover;
+  }
+
+  form {
+    width: 80%;
+  }
+
+
+}
