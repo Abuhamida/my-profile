@@ -12,7 +12,6 @@
 	<script src="https://kit.fontawesome.com/0b49cd14a8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/b0cc6d0970.css">
 	<link rel="stylesheet" href="static/css/index.css">
-	<link rel="stylesheet" href="static/css/text.css ">
 	<link rel="stylesheet" href="static/css/nav-footer.css ">
 
 
@@ -45,7 +44,7 @@
 						<li class="nav-tab"><a href="#">CV</a></li>
 						<li class="nav-tab"><a href="#">Contact</a></li>
 						<li class="nav-tab"><a href="#">Services</a></li>
-						<li class="nav-tab"><a href="#">Portoflio</a></li>
+						<li class="nav-tab"><a href="work.html">Portoflio</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -87,19 +86,19 @@
 
 			</div>
 
-			<form method="post" action="mailto:mr6303302@gmail.com" >
+			<form  action="mailto:mr6303302@gmail.com" method="POST" data-netlify="true" >
 
 				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
 				<label for="email">Email</label>
-				<input type="text" id="email" name="email" placeholder="Your email..">
+				<input type="text" id="email" name="email" placeholder="Your email.." required>
 
 				<label for="subject">subject</label>
-				<input type="text" id="subject" name="subject" placeholder="Subjecct..">
+				<input type="text" id="subject" name="subject" placeholder="Subjecct.." required>
 
 				<label for="message">message</label>
-				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea required>
 
 				<input type="submit" value="Submit">
 
